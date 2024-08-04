@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bot-dtstg"
+version = "0.1.0"
+description = ""
+authors = ["gl0k3 <look3net@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+httpx = "^0.27.0"
+python-telegram-bot = "^21.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,10 @@
+services:
+  bot-dtstg:
+    image: gl0k3/dtstg
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    environment:
+      TOKEN: $TOKEN
+      WHITELIST: $WHITELIST
